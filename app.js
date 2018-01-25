@@ -46,6 +46,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(validator());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('/uploads',express.static('uploads'));
 
 
 // required for passport
