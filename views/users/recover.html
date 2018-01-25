@@ -1,0 +1,24 @@
+{% extends "./layouts/master.html" %}
+
+{% block content %}
+
+<div class="row">
+    
+    <div class="col-sm-4 offset-sm-4">
+        <h2>Forgot Password</h2>  
+        <hr>     
+        <form action="/forgot-password" method="post">
+                {% include "./layouts/messages.html" %}
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="text" name="email" id="" class="form-control" placeholder="" aria-describedby="helpId">
+            </div>
+    
+              <!-- show any messages that come back with authentication -->
+        
+            <button type="submit" class="form-control btn btn-primary">Submit</button>
+            
+        </form>
+    </div>
+</div>
+{% endblock %}

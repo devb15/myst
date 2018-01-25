@@ -1,0 +1,44 @@
+{% extends "./layouts/master.html" %}
+
+{% block content %}
+
+<style>
+.color-white{
+   background-color: black;
+   padding-bottom:15px;
+}
+.color-my{
+    color:#fff;
+}
+
+</style>
+
+<div class="container">
+<div class="row">
+<div class="col-sm-4 color-white">
+
+<form action="" method="POST">
+<div class="form-group">
+  <label class="color-my" for="email">Email</label>
+  <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
+</div>
+ <button class="form-control btn-info" type="submit">Edit</button>
+</form>
+</div>
+<div class="col-sm-4">
+    <form action="" method="POST">
+        <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
+        </div>
+        <button class="form-control btn-success" type="submit">submit</button>
+        </div>
+    </form>
+</div>
+
+
+</div>
+
+</div>
+
+{% endblock %}

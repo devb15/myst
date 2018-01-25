@@ -1,0 +1,32 @@
+{% extends "./layouts/master.html" %}
+
+{% block content %}
+
+<div class="row">
+    
+    <div class="col-sm-4 offset-sm-4">
+        <h2>Login</h2>  
+        <hr>     
+        <form action="/login" method="post">
+                {% include "./layouts/messages.html" %}
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="text" name="email" id="" class="form-control" placeholder="" aria-describedby="helpId">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="" class="form-control" placeholder="" aria-describedby="helpId">
+            </div>
+            <p class="form-text">
+                <a href="/forgot-password">Forgot Password ?</a>
+
+            </p>
+              <!-- show any messages that come back with authentication -->
+        
+            <button type="submit" class="form-group form-control btn btn-primary">Login</button>
+            
+        </form>
+    </div>
+</div>
+{% endblock %}
+
