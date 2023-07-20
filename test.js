@@ -32,10 +32,10 @@ text: 'Hello,\n\n' +
 };
 transporter.sendMail(mailOptions, function(err) {
     console.log(err);
-console.log('dont');
+console.log('dont run');
 });
 
-// verify connection configuration
+// verify connection configuration for email
 
 
 // transporter.verify(function(error, success) {
