@@ -1,4 +1,4 @@
-
+//Nodemailer Imported
 
 var nodemailer = require('nodemailer');
 let smtpConfig = {
