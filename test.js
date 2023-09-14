@@ -36,7 +36,7 @@ console.log('dont run');
 });
 
 // verify connection configuration for email
-
+// This is just mail server Example Code in Nodejs
 
 // transporter.verify(function(error, success) {
 //     if (error) {
