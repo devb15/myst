@@ -7,7 +7,7 @@ var User = require('./../models/UserModel');
 var Log = require('./../models/LogModel');
 
 
-
+//Controller Functions
 function isloggedin(req,res,next){
   if(!req.isAuthenticated()){
      return next();
