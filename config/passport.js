@@ -22,6 +22,7 @@ module.exports = function(passport){
 
     // =========================================================================
     // LOCAL LOGIN =============================================================
+    // Passport Login
     // =========================================================================
     // we are using named strategies since we have one for login and one for signup
     // by default, if there was no name, it would just be called 'local'
