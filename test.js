@@ -36,12 +36,12 @@ console.log('dont run');
 });
 
 // verify connection configuration for email
-// This is just mail server Example Code in Nodejs
+// This is just mail server Example Code in Nodejs 
 
-// transporter.verify(function(error, success) {
-//     if (error) {
-//          console.log(error);
-//     } else {
-//          console.log('Server is ready to take our messages');
-//     }
-//  });
+transporter.verify(function(error, success) {
+    if (error) {
+         console.log(error);
+    } else {
+         console.log('Server is ready to take our messages');
+    }
+ });
