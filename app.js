@@ -12,10 +12,7 @@ var session = require('express-session');
 var validator = require('express-validator');
 var MongoStore = require('connect-mongo')(session);
 
-
-
-
-
+//Mongoose Setup
 mongoose.Promise = global.Promise;
 
 mongoose.connect("mongodb://localhost/seotools",{ useMongoClient: true });
