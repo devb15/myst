@@ -17,7 +17,6 @@ router.get('/', isloggedin,function(req, res, next) {
   res.send(req.user);
 });
 // router.get('/login', UserController.loginpage);
-
 // router.post('/login',passport.authenticate('local-login', {
 //   successRedirect : '/users', // redirect to the secure profile section
 //   failureRedirect : '/users/login', // redirect back to the signup page if there is an error
