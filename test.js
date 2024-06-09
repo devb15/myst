@@ -20,7 +20,7 @@ let transporter = nodemailer.createTransport(smtpConfig);
 //     service: 'gmail',
 //     auth: {
 //       user: 'apkteam2@gmail.com',
-//       pass: 'icanwin123'
+//       pass: 'passoword'
 //     }
 //   });
 var mailOptions = {
