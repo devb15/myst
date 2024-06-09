@@ -1,3 +1,4 @@
+//Home Controller
 var shortid = require('shortid');
 var async = require('async');
 var User = require('./../models/UserModel');
