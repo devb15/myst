@@ -12,7 +12,7 @@ function isloggedin(req,res,next){
 }
 
 
-/* GET users listing. */
+/* GET users new listing. */
 router.get('/', isloggedin,function(req, res, next) {
   res.send(req.user);
 });
